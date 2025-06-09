@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume Website Of Dhanush</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header>
+        <h1>DHANUSH NARAYANAN</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
+            <a href="#education">Education</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Welcome to My Portfolio !</h2>
+        <p>I am a passionate Computer Science Engineering student .</p>
+    </section>
+
+    <section id="about">
+        <h2>About Me :</h2>
+        <div class="about-container">
+            <img src="dhanushimg.jpg" alt="Student Image">
+            <p>Hello ! I’m a student enthusiastic about web development and software engineering. I enjoy building
+               useful applications and learning new technologies.</p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects :</h2>
+        <ul>
+            <li><a href="https://dhanushnarayanan2005.neocities.org/TO-DO%20LIST%20APP/" target="_blank">Project 1: To-Do List App</a></li>
+            <li><a href="https://dhanushnarayanan2005.neocities.org/Memory%20Flip%20Card/memoryflipcardgame" target="_blank">Project 2: Memory Flip Card Game</a></li>
+            <li><a href="https://dhanushnarayanan2005.neocities.org/dhanush%20resume/" target="_blank">Project 3: Portfolio Website</a></li>
+        </ul>
+    </section>
+
+    <section id="skills">
+        <h2>Skills :</h2>
+        <ul class="skills-list">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Python</li>
+            <li>Git & GitHub</li>
+        </ul>
+    </section>
+
+    <section id="education">
+        <h2>Education :</h2>
+        <p>B.E Computer Science Engineering at Paavai Engineering College Pursuing with 8.52 CGPA (2023 – 2027) , Namakkal .</p>
+        <p>Sri Ramakrishna Matriculation Higher Secondary School Completed with 81.17 % (2022 - 2023) , Arcot .</p>
+        <p>Sri Venkateshwara Matriculation School Completed with 99.9 % (2020 - 2021) , Walajapet .</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact :</h2>
+        <form onsubmit="submitForm(event)">
+            <input type="text" placeholder="Your Name" required />
+            <input type="email" placeholder="Your Email" required />
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2025 Dhanush Narayanan. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
